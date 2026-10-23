@@ -1,8 +1,7 @@
 
-# Local Files
+# Local Files (media)
 
 folder structure
-flsfl (obsidian)
 mv/
     m/
         meta/
@@ -14,6 +13,8 @@ hr
     r/
         YYMM/
 lb
+
+# Local Files (obsidian)
 
 # raindrop
 
