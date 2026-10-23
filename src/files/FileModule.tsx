@@ -195,12 +195,8 @@ export function FileModule() {
   }
 
   return (
-    <main className="local-files-app">
+    <section className="local-files-app" aria-label="File browser">
       <header className="local-files-topbar">
-        <div className="local-files-brand">
-          <span className="local-files-brand-mark"><FileIcon name="folder" size={18} /></span>
-          <span>Receptionist<span>.</span></span>
-        </div>
         <label className="local-files-search">
           <FileIcon name="search" size={17} />
           <input aria-label="Search files and folders" placeholder="Search files" value={query} onChange={(event) => setQuery(event.target.value)} />
@@ -297,6 +293,6 @@ export function FileModule() {
           )}
         </div>
       </section>
-    </main>
+    </section>
   )
 }
